@@ -80,7 +80,7 @@ NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://gith
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
-We intentionally use “latent” in a broad sense here to keep the categorization simple. It may refer to final-layer hidden states, learned summaries of future tokens, conceptual embeddings of text, or other intermediate representations. As a rule of thumb, methods in this category involve **reconstructing some latent representation of text during training**, rather than predicting tokens directly.
+We intentionally use “latent” in a broad sense here to keep the categorization simple. It may refer to final-layer hidden states, learned summaries of future tokens, conceptual embeddings of text, or other intermediate representations. As a rule of thumb, methods in this category incorporate auxiliary objectives to **reconstruct some latent representation of text during training**, rather than relying solely on token-level predictions.
 
 * **Semformer: Transformer Language Models with Semantic Planning** <br>
 *Yongjing Yin, Junran Ding, Kai Song, Yue Zhang* <br>
