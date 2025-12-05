@@ -19,7 +19,7 @@ If you know of a paper/blog related to this repository that we missed out on, fe
 * **Paper Title** <br>
 *Author(s)* <br>
 Conference, Year. [[Paper]](link) [[Code]](link) [[Website]](link)
-Summary (Optional): <short summary of the paper>
+<details><summary>*Summary*</summary>Optional one-line summary of paper.</details>
 ```
 
 ## <a name="studies"></a> Studies/Benchmarks
@@ -33,9 +33,15 @@ ICML, 2024. [[Paper]](https://arxiv.org/abs/2403.06963) [[Code]](https://github.
 ICML, 2025. [[Paper]](https://arxiv.org/abs/2504.15266) [[Code]](https://github.com/chenwu98/algorithmic-creativity)
 
 
+## <a name="surveys"></a> Surveys
+
+* **Alternatives To Next Token Prediction In Text Generation — A Survey** <br>
+*Charlie Wyatt, Aditya Joshi, Flora Salim* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2509.24435) 
+
 ## <a name="methods"></a> Methods
 
-**Clarification of scope:** We are primarily focussed on foundational training methods that augment the learning objective and are broadly applicable during pretraining. We exclude methods that operate atop of a pretrained next-token prediction backbone, e.g., speculative decoding. We also exclude data augmentation/preprocessing methods, e.g. sequence reordering, paired-text construction, or annotation-heavy pipelines.
+**Clarification of scope:** We are primarily focused on foundational training methods that augment the learning objective and are broadly applicable during pretraining. We exclude methods that operate atop of a pretrained next-token prediction backbone, e.g., speculative decoding or finetuning-only methods.
 
 ### <a name="methods-mtp"></a> Multi-Token Prediction Methods
 This section collates methods that **predict several future tokens using a shared model trunk**. For generality, we include any approach that augments the training objective with token-level losses beyond the next token, for e.g., future n-gram or forward-reverse predictions.
