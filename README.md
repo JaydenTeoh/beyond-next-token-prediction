@@ -10,8 +10,7 @@ Next-token prediction has driven many of the breakthroughs in modern language mo
     - [Multi-Token Prediction Methods](#methods-mtp)
     - [Latent Prediction Methods](#methods-latent)
     - [Sequence Augmentation Techniques](#methods-seq-aug)
-    - [Energy-based Language Models](#methods-energy)
-    - [Diffusion Language Models](#methods-diffusion)
+    - [Continuous Generation Methods](#methods-continuous)
 
 ## Contributing
 If you know of a paper/blog related to this repository that we missed out on, feel free to open a pull request. Please follow this format when suggesting a new paper:
@@ -27,6 +26,10 @@ Conference, Year. [[Paper]](link) [[Code]](link) [[Website]](link)
 * **The Pitfalls of Next-Token Prediction** <br>
 *Gregor Bachmann, Vaishnavh Nagarajan* <br>
 ICML, 2024. [[Paper]](https://arxiv.org/abs/2403.06963) [[Code]](https://github.com/gregorbachmann/Next-Token-Failures)
+
+* **The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More** <br>
+*Ouail Kitouni, Niklas Nolte, Diane Bouchacourt, Adina Williams, Mike Rabbat, Mark Ibrahim* <br>
+NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2406.05183) [[Code]](https://github.com/gregorbachmann/Next-Token-Failures)
 
 * **Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction** <br>
 *Vaishnavh Nagarajan, Chen Henry Wu, Charles Ding, Aditi Raghunathan* <br>
@@ -77,7 +80,7 @@ NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://gith
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
-We intentionally use “latent” in a broad sense here to keep the categorization simple. It may refer to final-layer hidden states, learned summaries of future tokens, conceptual embeddings of text, or other intermediate representations. As a rule of thumb, methods in this category involve reconstructing some latent representation of text during training, rather than predicting tokens directly.
+We intentionally use “latent” in a broad sense here to keep the categorization simple. It may refer to final-layer hidden states, learned summaries of future tokens, conceptual embeddings of text, or other intermediate representations. As a rule of thumb, methods in this category involve **reconstructing some latent representation of text during training**, rather than predicting tokens directly.
 
 * **Semformer: Transformer Language Models with Semantic Planning** <br>
 *Yongjing Yin, Junran Ding, Kai Song, Yue Zhang* <br>
@@ -104,7 +107,7 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.27688) [[Code]](https://github
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963)
 
 ### <a name="methods-seq-aug"></a> Sequence Augmentation Techniques
-This section covers methods that augment training sequences in ways that help overcome the myopic biases of standard next-token prediction.
+This section covers methods that **augment training sequences** in ways that help overcome the myopic biases of standard next-token prediction.
 
 * **Efficient Training of Language Models to Fill in the Middle** <br>
 *Mohammad Bavarian, Heewoo Jun, Nikolas Tezak, John Schulman, Christine McLeavey, Jerry Tworek, Mark Chen* <br>
@@ -119,11 +122,28 @@ ECML, 2024. [[Paper]](https://arxiv.org/abs/2404.09562) [[Code]](https://github.
 *Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2504.11336)
 
-### <a name="methods-energy"></a> Energy-based Language Models
+### <a name="methods-continuous"></a> Continuous Generation Methods
+This section covers continuous generation methods, i.e., approaches that generate text by iteratively refining a global continuous representation of the entire output, such as through diffusion, flow matching, or energy minimization, rather than emitting each token directly in a single pass. We focus on notable continuous generation methods and papers demonstrating how they address limitations of next-token prediction.
+
+Diffusion Language Models (DLM) are a rapidly growing area of research. We direct readers to this [repository](https://github.com/VILA-Lab/Awesome-DLMs/) for awesome curated list of DLM papers instead.
+
+
+* **Discrete Flow Matching** <br>
+*Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman* <br>
+NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2407.15595)
+
+* **Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning** <br>
+*Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, Lingpeng Kong* <br>
+ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.14157) [[Code]](https://github.com/HKUNLP/diffusion-vs-ar)
+
+* **Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models** <br>
+*Marianne Arriola, Aaron Gokaslan, Justin T. Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov* <br>
+ICLR, 2025. [[Paper]](https://arxiv.org/abs/2503.09573) [[Code]](https://github.com/kuleshov-group/bd3lms) [[Website]](https://m-arriola.com/bd3lms/) 
+
+* **Large Language Diffusion Models** <br>
+*Shen Nie, Fengqi Zhu, Zebin You, Xiaolu Zhang, Jingyang Ou, Jun Hu, Jun Zhou, Yankai Lin, Ji-Rong Wen, Chongxuan Li* <br>
+NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2502.09992) [[Code]](https://github.com/ML-GSAI/LLaDA) [[Website]](https://ml-gsai.github.io/LLaDA-demo/) 
 
 * **Energy-Based Transformers are Scalable Learners and Thinkers** <br>
 *Alexi Gladstone, Ganesh Nanduru, Md Mofijul Islam, Peixuan Han, Hyeonjeong Ha, Aman Chadha, Yilun Du, Heng Ji, Jundong Li, Tariq Iqbal* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2507.02092) [[Code]](https://github.com/alexiglad/ebt) [[Website]](https://energy-based-transformers.github.io/) 
-
-### <a name="methods-diffusion"></a> Diffusion Language Models
-Diffusion Language Models (DLM) are a rapidly growing area of research. We direct readers to this [repository](https://github.com/VILA-Lab/Awesome-DLMs/) for awesome curated list of DLM papers instead.
