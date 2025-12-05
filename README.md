@@ -9,6 +9,7 @@ Next-token prediction has driven many of the breakthroughs in modern language mo
 * [Methods](#methods)
     - [Multi-Token Prediction Methods](#methods-mtp)
     - [Latent Prediction Methods](#methods-latent)
+    - [Sequence Augmentation Techniques](#methods-seq-aug)
     - [Energy-based Language Models](#methods-energy)
     - [Diffusion Language Models](#methods-diffusion)
 
@@ -44,7 +45,7 @@ This section collates methods that **predict several future tokens using a share
 
 * **ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training** <br>
 *Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang, Ming Zhou* <br>
-EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063) [[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet) <details><summary>*Summary*</summary>AFAIK, first paper to introduce multi-token predictions.</details>
+EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063) [[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet) <details><summary>*Summary*</summary>AFAIK, first paper to introduce future n-gram prediction from a shared transformer trunk.</details>
 
 * **Better & Faster Large Language Models via Multi-token Prediction** <br>
 *Fabian Gloeckle, Badr Youbi Idrissi, Baptiste Rozière, David Lopez-Paz, Gabriel Synnaeve* <br>
@@ -65,6 +66,10 @@ ICLR, 2025. [[Paper]](https://arxiv.org/abs/2407.12665) [[Code]](https://github.
 * **The Belief State Transformer** <br>
 *Edward S. Hu, Kwangjun Ahn, Qinghua Liu, Haoran Xu, Manan Tomar, Ada Langford, Jayden Teoh, Bryon Xu, David Yan, Dinesh Jayaraman, Alex Lamb, John Langford* <br>
 ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) <details><summary>*Summary*</summary>The model takes in both the prefix and suffix as inputs to produce a joint embedding ("belief state"). The embedding is used to predict the next token for the prefix and previous token for the suffix.</details>
+
+* **Predicting the Order of Upcoming Tokens Improves Language Modeling** <br>
+*Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.com/zaydzuhri/token-order-prediction) 
 
 * **Multi-Token Prediction Needs Registers** <br>
 *Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis* <br>
@@ -97,6 +102,22 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.27688) [[Code]](https://github
 * **Next-Latent Prediction Transformers Learn Compact World Models** <br>
 *Jayden Teoh, Manan Tomar, Kwangjun Ahn, Edward S. Hu, Pratyusha Sharma, Riashat Islam, Alex Lamb, John Langford* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963)
+
+### <a name="methods-seq-aug"></a> Sequence Augmentation Techniques
+This section covers methods that augment training sequences in ways that help overcome the myopic biases of standard next-token prediction.
+
+* **Efficient Training of Language Models to Fill in the Middle** <br>
+*Mohammad Bavarian, Heewoo Jun, Nikolas Tezak, John Schulman, Christine McLeavey, Jerry Tworek, Mark Chen* <br>
+arXiv, 2022. [[Paper]](https://arxiv.org/abs/2207.14255)
+
+* **σ-GPTs: A New Approach to Autoregressive
+Models** <br>
+*Arnaud Pannatier, Evann Courdier, François Fleuret* <br>
+ECML, 2024. [[Paper]](https://arxiv.org/abs/2404.09562) [[Code]](https://github.com/idiap/sigma-gpt) 
+
+* **Looking beyond the next token** <br>
+*Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2504.11336)
 
 ### <a name="methods-energy"></a> Energy-based Language Models
 
