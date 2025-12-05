@@ -29,7 +29,7 @@ ICML, 2024. [[Paper]](https://arxiv.org/abs/2403.06963) [[Code]](https://github.
 
 * **The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More** <br>
 *Ouail Kitouni, Niklas Nolte, Diane Bouchacourt, Adina Williams, Mike Rabbat, Mark Ibrahim* <br>
-NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2406.05183) [[Code]](https://github.com/gregorbachmann/Next-Token-Failures)
+NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2406.05183)
 
 * **Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction** <br>
 *Vaishnavh Nagarajan, Chen Henry Wu, Charles Ding, Aditi Raghunathan* <br>
