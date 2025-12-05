@@ -68,7 +68,7 @@ ICLR, 2025. [[Paper]](https://arxiv.org/abs/2407.12665) [[Code]](https://github.
 
 * **The Belief State Transformer** <br>
 *Edward S. Hu, Kwangjun Ahn, Qinghua Liu, Haoran Xu, Manan Tomar, Ada Langford, Jayden Teoh, Bryon Xu, David Yan, Dinesh Jayaraman, Alex Lamb, John Langford* <br>
-ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) <details><summary>*Summary*</summary>The model takes in both the prefix and suffix as inputs to produce a joint embedding ("belief state"). The embedding is used to predict the next token for the prefix and previous token for the suffix.</details>
+ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) [[Code]](https://github.com/microsoft/bst) [[Website]](https://edwardshu.com/bst-website/) <details><summary>*Summary*</summary>The model takes in both the prefix and suffix as inputs to produce a joint embedding ("belief state"). The embedding is used to predict the next token for the prefix and previous token for the suffix.</details>
 
 * **Predicting the Order of Upcoming Tokens Improves Language Modeling** <br>
 *Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji* <br>
@@ -84,7 +84,7 @@ We intentionally use “latent” in a broad sense here to keep the categorizati
 
 * **Semformer: Transformer Language Models with Semantic Planning** <br>
 *Yongjing Yin, Junran Ding, Kai Song, Yue Zhang* <br>
-EMNLP, 2024. [[Paper]](https://arxiv.org/abs/2409.11143) [[Code]](https://github.com/ARIES-LM/Semformer.git) [[Website]](https://shaochenze.github.io/blog/2025/CALM) 
+EMNLP, 2024. [[Paper]](https://arxiv.org/abs/2409.11143) [[Code]](https://github.com/ARIES-LM/Semformer.git) 
 
 * **Large Concept Models: Language Modeling in a Sentence Representation Space** <br>
 *Large Concept Models Team (FAIR at Meta)* <br>
@@ -96,7 +96,7 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2502.08524) [[Code]](https://github
 
 * **Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries** <br>
 *Divyat Mahajan, Sachin Goyal, Badr Youbi Idrissi, Mohammad Pezeshki, Ioannis Mitliagkas, David Lopez-Paz, Kartik Ahuja* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.14751) <details><summary>*Summary*</summary>Predict summaries of future tokens. Similar to [Twin Networks](https://arxiv.org/pdf/1708.06742) and [Belief State Transformers](https://arxiv.org/abs/2410.23506).</details>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.14751) 
 
 * **Continuous Autoregressive Language Models** <br>
 *Chenze Shao, Darren Li, Fandong Meng, Jie Zhou* <br>
