@@ -27,9 +27,7 @@ Summary (Optional): <short summary of the paper>
 
 * **ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training** <br>
 *Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang, Ming Zhou* <br>
-EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063)[[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet)
-
-<summary>AFAIK, first paper to introduce multi-token predictions</summary>
+EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063)[[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet) <details><summary>*Summary*</summary>AFAIK, first paper to introduce multi-token predictions</details>
 
 * **Better & Faster Large Language Models via Multi-token Prediction** <br>
 *Fabian Gloeckle, Badr Youbi Idrissi, Baptiste Rozière, David Lopez-Paz, Gabriel Synnaeve* <br>
