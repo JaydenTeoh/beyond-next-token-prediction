@@ -18,7 +18,6 @@ If you know of a paper/blog related to this repository that we missed out on, fe
 * **Paper Title** <br>
 *Author(s)* <br>
 Conference, Year. [[Paper]](link) [[Code]](link) [[Website]](link)
-<details><summary>*Summary*</summary>Optional one-line summary of paper.</details>
 ```
 
 ## <a name="studies"></a> Studies/Benchmarks
@@ -48,7 +47,7 @@ This section collates methods that **predict several future tokens using a share
 
 * **ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training** <br>
 *Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang, Ming Zhou* <br>
-EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063) [[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet) <details><summary>*Summary*</summary>AFAIK, first paper to introduce future n-gram prediction from a shared transformer trunk.</details>
+EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063) [[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet)
 
 * **Better & Faster Large Language Models via Multi-token Prediction** <br>
 *Fabian Gloeckle, Badr Youbi Idrissi, Baptiste Rozière, David Lopez-Paz, Gabriel Synnaeve* <br>
@@ -68,7 +67,7 @@ ICLR, 2025. [[Paper]](https://arxiv.org/abs/2407.12665) [[Code]](https://github.
 
 * **The Belief State Transformer** <br>
 *Edward S. Hu, Kwangjun Ahn, Qinghua Liu, Haoran Xu, Manan Tomar, Ada Langford, Jayden Teoh, Bryon Xu, David Yan, Dinesh Jayaraman, Alex Lamb, John Langford* <br>
-ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) [[Code]](https://github.com/microsoft/bst) [[Website]](https://edwardshu.com/bst-website/) <details><summary>*Summary*</summary>The model takes in both the prefix and suffix as inputs to produce a joint embedding ("belief state"). The embedding is used to predict the next token for the prefix and previous token for the suffix.</details>
+ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) [[Code]](https://github.com/microsoft/bst) [[Website]](https://edwardshu.com/bst-website/)
 
 * **Predicting the Order of Upcoming Tokens Improves Language Modeling** <br>
 *Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji* <br>
