@@ -61,6 +61,10 @@ arXiv, 2024. [[Paper]](https://arxiv.org/abs/2412.19437) [[Code]](https://github
 *Kwangjun Ahn, Alex Lamb, John Langford* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2503.21801)
 
+* **Improving Large Language Models with Concept-Aware Fine-Tuning** <br>
+*Michael K. Chen, Xikun Zhang, Jiaxing Huang, Dacheng Tao* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2506.07833) [[Code]](https://github.com/michaelchen-lab/caft-llm)
+
 * **Beyond Next Token Prediction: Patch-Level Training for Large Language Models** <br>
 *Chenze Shao, Fandong Meng, Jie Zhou* <br>
 ICLR, 2025. [[Paper]](https://arxiv.org/abs/2407.12665) [[Code]](https://github.com/shaochenze/PatchTrain) 
