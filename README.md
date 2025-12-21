@@ -38,6 +38,10 @@ ICML, 2025. [[Paper]](https://arxiv.org/abs/2504.15266) [[Code]](https://github.
 *Charlie Wyatt, Aditya Joshi, Flora Salim* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2509.24435) 
 
+* **Autoregressive Language Models are Secretly Energy-Based Models: Insights into the Lookahead Capabilities of Next-Token Prediction** <br>
+*Mathieu Blondel, Michael E. Sander, Germain Vivier-Ardisson, Tianlin Liu, Vincent Roulet* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.15605) 
+
 ## <a name="methods"></a> Methods
 
 **Clarification of scope:** We are primarily focused on foundational training methods that augment the learning objective and are broadly applicable during pretraining. We exclude methods that operate atop of a pretrained next-token prediction backbone, e.g., speculative decoding or finetuning-only methods.
@@ -134,6 +138,10 @@ Diffusion Language Models (DLM) are a rapidly growing area of research. We direc
 * **Discrete Flow Matching** <br>
 *Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman* <br>
 NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2407.15595)
+
+* **Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion** <br>
+*Boyuan Chen, Diego Marti Monso, Yilun Du, Max Simchowitz, Russ Tedrake, Vincent Sitzmann* <br>
+NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2407.01392) [[Code]](https://github.com/buoyancy99/diffusion-forcing) [[Website]](https://www.boyuan.space/diffusion-forcing/) 
 
 * **Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning** <br>
 *Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, Lingpeng Kong* <br>
