@@ -42,6 +42,10 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2509.24435)
 *Mathieu Blondel, Michael E. Sander, Germain Vivier-Ardisson, Tianlin Liu, Vincent Roulet* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.15605) 
 
+* **Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors** <br>
+*Mark Rofin, Jalal Naghiyev, Michael Hahn* <br>
+ICLR, 2026. [[Paper]](https://arxiv.org/abs/2603.14087) [[Code]](https://github.com/Markfryazino/useless-features-iclr-code) [[Website]](https://markfryazino.github.io/useless-features-iclr/)
+
 ## <a name="methods"></a> Methods
 
 **Clarification of scope:** We are primarily focused on foundational training methods that augment the learning objective and are broadly applicable during pretraining. We exclude methods that operate atop of a pretrained next-token prediction backbone, e.g., speculative decoding or finetuning-only methods.
@@ -79,7 +83,7 @@ ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) [[Code]](https://github.
 
 * **Predicting the Order of Upcoming Tokens Improves Language Modeling** <br>
 *Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.com/zaydzuhri/token-order-prediction) 
+ICML, 2026. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.com/zaydzuhri/token-order-prediction) 
 
 * **Multi-Token Prediction Needs Registers** <br>
 *Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis* <br>
@@ -103,7 +107,7 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2502.08524) [[Code]](https://github
 
 * **Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries** <br>
 *Divyat Mahajan, Sachin Goyal, Badr Youbi Idrissi, Mohammad Pezeshki, Ioannis Mitliagkas, David Lopez-Paz, Kartik Ahuja* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.14751) 
+ICLR, 2026. [[Paper]](https://arxiv.org/abs/2510.14751) 
 
 * **Continuous Autoregressive Language Models** <br>
 *Chenze Shao, Darren Li, Fandong Meng, Jie Zhou* <br>
