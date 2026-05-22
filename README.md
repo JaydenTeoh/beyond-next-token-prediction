@@ -89,6 +89,10 @@ ICML, 2026. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.
 *Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis* <br>
 NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://github.com/nasosger/MuToR) 
 
+* **Efficient Pre-Training with Token Superposition** <br>
+*Bowen Peng, Théo Gigant, Jeffrey Quesnelle* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.06546) [[Website]](https://nousresearch.com/token-superposition) 
+
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
 We intentionally use “latent” in a broad sense here to keep the categorization simple. It may refer to final-layer hidden states, learned summaries of future tokens, conceptual embeddings of text, or other intermediate representations. As a rule of thumb, methods in this category incorporate auxiliary objectives to **reconstruct some latent representation of text during training**, rather than relying solely on token-level predictions.
