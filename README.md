@@ -99,7 +99,7 @@ arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.06546) [[Website]](https://nou
 
 * **Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement** <br>
 *Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao* <br>
-ACL, 2026. [[Paper]](https://arxiv.org/abs/2604.06155) [[Website]](https://github.com/QiminZhong/LSE-MTP) 
+ACL, 2026. [[Paper]](https://arxiv.org/abs/2604.06155) [[Code]](https://github.com/QiminZhong/LSE-MTP) 
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
