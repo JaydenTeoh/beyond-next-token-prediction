@@ -40,11 +40,15 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2509.24435)
 
 * **Autoregressive Language Models are Secretly Energy-Based Models: Insights into the Lookahead Capabilities of Next-Token Prediction** <br>
 *Mathieu Blondel, Michael E. Sander, Germain Vivier-Ardisson, Tianlin Liu, Vincent Roulet* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.15605) 
+ICML, 2026. [[Paper]](https://arxiv.org/abs/2512.15605) 
 
 * **Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors** <br>
 *Mark Rofin, Jalal Naghiyev, Michael Hahn* <br>
 ICLR, 2026. [[Paper]](https://arxiv.org/abs/2603.14087) [[Code]](https://github.com/Markfryazino/useless-features-iclr-code) [[Website]](https://markfryazino.github.io/useless-features-iclr/)
+
+* **How Transformers Learn to Plan via Multi-Token Prediction** <br>
+*Jianhao Huang, Zhanpeng Zhou, Renqiu Xia, Baharan Mirzasoleiman, Weijie Su, Wei Huang* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2604.11912)
 
 ## <a name="methods"></a> Methods
 
@@ -92,6 +96,10 @@ NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://gith
 * **Efficient Pre-Training with Token Superposition** <br>
 *Bowen Peng, Théo Gigant, Jeffrey Quesnelle* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.06546) [[Website]](https://nousresearch.com/token-superposition) 
+
+* **Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement** <br>
+*Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao* <br>
+ACL, 2026. [[Paper]](https://arxiv.org/abs/2604.06155) [[Website]](https://github.com/QiminZhong/LSE-MTP) 
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
