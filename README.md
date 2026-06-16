@@ -30,6 +30,10 @@ ICML, 2024. [[Paper]](https://arxiv.org/abs/2403.06963) [[Code]](https://github.
 *Ouail Kitouni, Niklas Nolte, Diane Bouchacourt, Adina Williams, Mike Rabbat, Mark Ibrahim* <br>
 NeurIPS, 2024. [[Paper]](https://arxiv.org/abs/2406.05183)
 
+* **Reasoning Bias of Next Token Prediction Training** <br>
+*Pengxiao Lin, Zhongwang Zhang, Zhi-Qin John Xu* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2502.02007)
+
 * **Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction** <br>
 *Vaishnavh Nagarajan, Chen Henry Wu, Charles Ding, Aditi Raghunathan* <br>
 ICML, 2025. [[Paper]](https://arxiv.org/abs/2504.15266) [[Code]](https://github.com/chenwu98/algorithmic-creativity)
