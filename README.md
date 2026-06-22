@@ -54,6 +54,11 @@ ICLR, 2026. [[Paper]](https://arxiv.org/abs/2603.14087) [[Code]](https://github.
 *Jianhao Huang, Zhanpeng Zhou, Renqiu Xia, Baharan Mirzasoleiman, Weijie Su, Wei Huang* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2604.11912)
 
+* **Learn from your own latents and not from tokens: A sample-complexity theory** <br>
+*Daniel J. Korchinski, Alessandro Favero, Matthieu Wyart* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.27734)
+
+
 ## <a name="methods"></a> Methods
 
 **Clarification of scope:** We are primarily focused on foundational training methods that augment the learning objective and are broadly applicable during pretraining. We exclude methods that operate atop of a pretrained next-token prediction backbone, e.g., speculative decoding or finetuning-only methods.
@@ -131,7 +136,7 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2510.27688) [[Code]](https://github
 
 * **Next-Latent Prediction Transformers Learn Compact World Models** <br>
 *Jayden Teoh, Manan Tomar, Kwangjun Ahn, Edward S. Hu, Pratyusha Sharma, Riashat Islam, Alex Lamb, John Langford* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963)
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963) [[Code]](https://github.com/JaydenTeoh/NextLat) [[Website]](https://jaydenteoh.github.io/blog/2026/nextlat/)
 
 * **Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space** <br>
 *Xingwei Qu, Shaowen Wang, Zihao Huang, Kai Hua, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang* <br>
