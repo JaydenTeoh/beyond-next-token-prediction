@@ -70,6 +70,14 @@ This section collates methods that **predict several future tokens using a share
 *Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang, Ming Zhou* <br>
 EMNLP, 2020. [[Paper]](https://arxiv.org/abs/2001.04063) [[Code]](https://github.com/microsoft/ProphetNet/tree/master/ProphetNet)
 
+* **Image Captioners Are Scalable Vision Learners Too** <br>
+*Michael Tschannen, Manoj Kumar, Andreas Steiner, Xiaohua Zhai, Neil Houlsby, Lucas Beyer* <br>
+NeurIPS, 2023. [[Paper]](https://arxiv.org/abs/2306.07915) [[Code]](https://github.com/google-research/big_vision) 
+
+* **PaSS: Parallel Speculative Sampling** <br>
+*Giovanni Monea, Armand Joulin, Edouard Grave* <br>
+arXiv, 2023. [[Paper]](https://arxiv.org/abs/2311.13581)
+
 * **Better & Faster Large Language Models via Multi-token Prediction** <br>
 *Fabian Gloeckle, Badr Youbi Idrissi, Baptiste Rozière, David Lopez-Paz, Gabriel Synnaeve* <br>
 ICML, 2024. [[Paper]](https://arxiv.org/abs/2404.19737) 
@@ -94,6 +102,10 @@ ICLR, 2025. [[Paper]](https://arxiv.org/abs/2407.12665) [[Code]](https://github.
 *Edward S. Hu, Kwangjun Ahn, Qinghua Liu, Haoran Xu, Manan Tomar, Ada Langford, Jayden Teoh, Bryon Xu, David Yan, Dinesh Jayaraman, Alex Lamb, John Langford* <br>
 ICLR, 2025. [[Paper]](https://arxiv.org/abs/2410.23506) [[Code]](https://github.com/microsoft/bst) [[Website]](https://edwardshu.com/bst-website/)
 
+* **Pre-Training Curriculum for Multi-Token Prediction in Language Models** <br>
+*Ansar Aynetdinov, Alan Akbik* <br>
+ACL, 2025. [[Paper]](https://arxiv.org/abs/2505.22757) [[Code]](https://github.com/aynetdia/mtp_curriculum)
+
 * **Predicting the Order of Upcoming Tokens Improves Language Modeling** <br>
 *Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji* <br>
 ICML, 2026. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.com/zaydzuhri/token-order-prediction) 
@@ -101,6 +113,10 @@ ICML, 2026. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.
 * **Multi-Token Prediction Needs Registers** <br>
 *Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis* <br>
 NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://github.com/nasosger/MuToR) 
+
+* **Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning** <br>
+*NVIDIA* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2604.12374) [[Code]](https://github.com/NVIDIA-NeMo/Nemotron)  [[Website]](https://research.nvidia.com/labs/nemotron/Nemotron-3-Super/) 
 
 * **Efficient Pre-Training with Token Superposition** <br>
 *Bowen Peng, Théo Gigant, Jeffrey Quesnelle* <br>
@@ -142,6 +158,10 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963) [[Code]](https://github
 *Xingwei Qu, Shaowen Wang, Zihao Huang, Kai Hua, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.24617)
 
+* **Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space** <br>
+*Xingwei Qu, Shaowen Wang, Zihao Huang, Kai Hua, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2512.24617) 
+
 * **Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models** <br>
 *Yuliang Liu, Yunchong Song, Yixuan Wang, Kewen Ge, Alex Lamb, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2602.08984) [[Code]](https://github.com/LUMIA-Group/ConceptLM)
@@ -154,10 +174,18 @@ This section covers methods that **augment training sequences** in ways that hel
 *Mohammad Bavarian, Heewoo Jun, Nikolas Tezak, John Schulman, Christine McLeavey, Jerry Tworek, Mark Chen* <br>
 arXiv, 2022. [[Paper]](https://arxiv.org/abs/2207.14255)
 
-* **σ-GPTs: A New Approach to Autoregressive
-Models** <br>
+* **σ-GPTs: A New Approach to Autoregressive Models** <br>
 *Arnaud Pannatier, Evann Courdier, François Fleuret* <br>
 ECML, 2024. [[Paper]](https://arxiv.org/abs/2404.09562) [[Code]](https://github.com/idiap/sigma-gpt) 
+
+* **Demystifying Training-Time Augmentation for Data-Constrained Language Model Pretraining** <br>
+*Michael K. Chen, Xikun Zhang, Fan Bai, Zhengding Hu, Zhen Wang* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2606.16246) [[Code]](https://github.com/michaelchen-lab/data-augmentations-for-pretraining) 
+
+* **Simplifying the Modeling of Arbitrary Conditionals in Natural Language** <br>
+*Yinhan Lu, Eric Elmoznino, Léo Gagnon, Sarthak Mittal, Tejas Kasetty, Guillaume Lajoie* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2606.14943)
+
 
 * **Looking beyond the next token** <br>
 *Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk* <br>
