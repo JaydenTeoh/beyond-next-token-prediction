@@ -158,10 +158,6 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2511.05963) [[Code]](https://github
 *Xingwei Qu, Shaowen Wang, Zihao Huang, Kai Hua, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang* <br>
 arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.24617)
 
-* **Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space** <br>
-*Xingwei Qu, Shaowen Wang, Zihao Huang, Kai Hua, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang* <br>
-arXiv, 2026. [[Paper]](https://arxiv.org/abs/2512.24617) 
-
 * **Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models** <br>
 *Yuliang Liu, Yunchong Song, Yixuan Wang, Kewen Ge, Alex Lamb, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2602.08984) [[Code]](https://github.com/LUMIA-Group/ConceptLM)
