@@ -174,6 +174,10 @@ arXiv, 2022. [[Paper]](https://arxiv.org/abs/2207.14255)
 *Arnaud Pannatier, Evann Courdier, François Fleuret* <br>
 ECML, 2024. [[Paper]](https://arxiv.org/abs/2404.09562) [[Code]](https://github.com/idiap/sigma-gpt) 
 
+* **Looking beyond the next token** <br>
+*Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk* <br>
+arXiv, 2025. [[Paper]](https://arxiv.org/abs/2504.11336)
+
 * **Demystifying Training-Time Augmentation for Data-Constrained Language Model Pretraining** <br>
 *Michael K. Chen, Xikun Zhang, Fan Bai, Zhengding Hu, Zhen Wang* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2606.16246) [[Code]](https://github.com/michaelchen-lab/data-augmentations-for-pretraining) 
@@ -182,10 +186,6 @@ arXiv, 2026. [[Paper]](https://arxiv.org/abs/2606.16246) [[Code]](https://github
 *Yinhan Lu, Eric Elmoznino, Léo Gagnon, Sarthak Mittal, Tejas Kasetty, Guillaume Lajoie* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2606.14943)
 
-
-* **Looking beyond the next token** <br>
-*Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk* <br>
-arXiv, 2025. [[Paper]](https://arxiv.org/abs/2504.11336)
 
 ### <a name="methods-continuous"></a> Continuous Generation Methods
 This section covers continuous generation methods, i.e., approaches that generate text by iteratively refining a global continuous representation of the entire output, such as through diffusion, flow matching, or energy minimization, rather than emitting each token directly in a single pass. We focus on notable continuous generation methods and papers demonstrating how they address limitations of next-token prediction.
