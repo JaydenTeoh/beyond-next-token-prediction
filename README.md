@@ -130,6 +130,10 @@ arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.06546) [[Website]](https://nou
 *Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao* <br>
 ACL, 2026. [[Paper]](https://arxiv.org/abs/2604.06155) [[Code]](https://github.com/QiminZhong/LSE-MTP) 
 
+* **Parallel Language Models via Variational Decoding** <br>
+*Felix Draxler, Robin C. Geyer, Daniel Geyfman, Farrin Marouf Sofian, Justus Will, Philipp Hildebrandt, Giosue Migliorini, Prakhar Srivastava, Gagan Sai Trinadh Duggaraju Peddiraju, Kushagra Pandey, Jorge da Silva Gonçalves, Elijah Tavares, Jan Niklas Groeneveld, Yang Meng, Julia E. Vogt, Stephan Mandt* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.26693) [[Code]](https://github.com/mandt-lab/plm)
+
 * **Multi-Token Prediction Done Right** <br>
 *Jayden Teoh* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.38331) [[Code]](https://github.com/JaydenTeoh/Soft-MTP)
@@ -169,6 +173,10 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.24617)
 * **Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models** <br>
 *Yuliang Liu, Yunchong Song, Yixuan Wang, Kewen Ge, Alex Lamb, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2602.08984) [[Code]](https://github.com/LUMIA-Group/ConceptLM)
+
+* **Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation** <br>
+*Hermann Kumbong, Ishan S. Khare, Iddah Mlauzi, Andrew Woen, Charles Ding, E. Kelly Buchanan, Simran Arora, Azalia Mirhoseini, Christopher Ré* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.14162) [[Code]](https://github.com/HazyResearch/ncm) [[Website]](https://hazyresearch.stanford.edu/blog/2026-10-12-ncm)
 
 
 ### <a name="methods-seq-aug"></a> Sequence Augmentation Techniques
