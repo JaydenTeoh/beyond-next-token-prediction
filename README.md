@@ -114,6 +114,10 @@ ICML, 2026. [[Paper]](https://arxiv.org/abs/2508.19228) [[Code]](https://github.
 *Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis* <br>
 NeurIPS, 2025. [[Paper]](https://arxiv.org/abs/2505.10518) [[Code]](https://github.com/nasosger/MuToR) 
 
+* **Self-Distillation for Multi-Token Prediction** <br>
+*Guoliang Zhao, Ruobing Xie, An Wang, Shuaipeng Li, Huaibing Xie, Xingwu Sun* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2603.23911)
+
 * **Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning** <br>
 *NVIDIA* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2604.12374) [[Code]](https://github.com/NVIDIA-NeMo/Nemotron)  [[Website]](https://research.nvidia.com/labs/nemotron/Nemotron-3-Super/) 
@@ -125,6 +129,10 @@ arXiv, 2026. [[Paper]](https://arxiv.org/abs/2605.06546) [[Website]](https://nou
 * **Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement** <br>
 *Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao* <br>
 ACL, 2026. [[Paper]](https://arxiv.org/abs/2604.06155) [[Code]](https://github.com/QiminZhong/LSE-MTP) 
+
+* **Multi-Token Prediction Done Right** <br>
+*Jayden Teoh* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.38331) [[Code]](https://github.com/JaydenTeoh/Soft-MTP)
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
