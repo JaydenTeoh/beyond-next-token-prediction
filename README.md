@@ -136,7 +136,7 @@ arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.26693) [[Code]](https://github
 
 * **Multi-Token Prediction Done Right** <br>
 *Jayden Teoh* <br>
-arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.38331) [[Code]](https://github.com/JaydenTeoh/Soft-MTP)
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.38331) [[Code]](https://github.com/JaydenTeoh/Soft-MTP) [[Website]](https://jaydenteoh.github.io/blog/2026/kl-gradient-recovery-trick/)
 
 
 ### <a name="methods-latent"></a> Latent Prediction Methods
