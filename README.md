@@ -174,6 +174,14 @@ arXiv, 2025. [[Paper]](https://arxiv.org/abs/2512.24617)
 *Yuliang Liu, Yunchong Song, Yixuan Wang, Kewen Ge, Alex Lamb, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2602.08984) [[Code]](https://github.com/LUMIA-Group/ConceptLM)
 
+* **Hierarchical Latent Prediction for Language Models** <br>
+*Chang Shi, Tim Pearce, Manan Tomar, Siddhartha Sen, John Langford* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2608.05806)
+
+* **NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction** <br>
+*Intern-NCP Team* <br>
+arXiv, 2026. [[Paper]](https://arxiv.org/abs/2609.10715) [[Code]](https://github.com/LUMIA-Group/ncp_olmo_eval) [[Website]](https://huggingface.co/ArchSpace-Collection)
+
 * **Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation** <br>
 *Hermann Kumbong, Ishan S. Khare, Iddah Mlauzi, Andrew Woen, Charles Ding, E. Kelly Buchanan, Simran Arora, Azalia Mirhoseini, Christopher Ré* <br>
 arXiv, 2026. [[Paper]](https://arxiv.org/abs/2610.14162) [[Code]](https://github.com/HazyResearch/ncm) [[Website]](https://hazyresearch.stanford.edu/blog/2026-10-12-ncm)
